@@ -1,0 +1,12 @@
+{
+  "title": "産婦人科 練習問題",
+  "description": "講義の復習用の練習問題です。",
+  "repository": "",
+  "branch": "main",
+  "auth": {
+    "enabled": false,
+    "clientId": "",
+    "tenantId": "",
+    "allowedDomains": []
+  }
+}

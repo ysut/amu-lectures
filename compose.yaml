@@ -1,0 +1,14 @@
+services:
+  dev:
+    image: node:24-bookworm-slim
+    working_dir: /app
+    command: sh -c "npm ci && npm run dev"
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/app
+      # Keep container-installed packages separate from the host.
+      - node_modules:/app/node_modules
+
+volumes:
+  node_modules:
