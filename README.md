@@ -117,3 +117,12 @@ tests/                          テスト
 main ブランチに push すると、GitHub Actions が `node:24-bookworm-slim` コンテナ内で
 テスト → ビルド（問題ファイルの検証）→ GitHub Pages へのデプロイを行います。
 Pull Request では検証だけを行い、デプロイはしません。
+
+## ライセンス
+
+- プログラム（`src/`、`scripts/`、`tests/` など）は [MIT License](LICENSE) です。
+- **`questions/` 以下の問題・解説・画像は MIT License の対象外です。**
+  著作権は各作成者に帰属し、作成者の許可なく転載・再配布・改変することはできません。
+
+The source code is licensed under the MIT License. The contents of `questions/`
+(questions, explanations and images) are not covered by it; all rights reserved by their authors.
